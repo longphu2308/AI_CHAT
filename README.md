@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Chatbot Application with Fine-Tuned AI using RAG
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+<img width="1156" alt="Ảnh màn hình 2025-04-09 lúc 22 20 54" src="https://github.com/user-attachments/assets/71ed837d-195a-43b6-bfa9-321bcd68105e" />
 
-## Available Scripts
+This application features a chatbot built using the Retrieval-Augmented Generation (RAG) technique. It is powered by a fine-tuned **Llama-3.1-8B-Instruct** model and is developed with **React** for the frontend interface. The chatbot offers conversational capabilities designed to improve user interaction by retrieving and generating contextually relevant responses.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Advanced AI Capabilities**: Integrates Llama-3.1-8B-Instruct, a fine-tuned large language model, ensuring high-quality interactions.
+- **Retrieval-Augmented Generation (RAG)**: Enhances response accuracy by fetching relevant information from knowledge bases before generating answers.
+- **Interactive User Interface**: Built using React, providing a seamless and responsive user experience.
+- **Customizable**: Easily extendable for various domains such as education, customer service, or technical support.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Check out the video demonstration of the app here: [Video Demo](https://drive.google.com/file/d/1AHNyxwnMeCjUi0g93vWwn40xGLGDtDpd/view?usp=sharing).
 
-### `npm test`
+## How It Works
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Input Query**: Users interact with the chatbot via a text-based interface.
+2. **Retrieval Phase**: Relevant data is retrieved from predefined knowledge sources using RAG.
+3. **Response Generation**: The fine-tuned model generates responses based on the retrieved context.
+4. **User Feedback**: The system adapts over time by incorporating user feedback to improve performance.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+  git clone https://github.com/longphu2308/AI_CHAT.git
+2. Navigate to the project directory:
+  cd lesson_plan
+3. Install dependencies:
+  npm install
+4. Start the development server:
+  npm start
+  python server.py
